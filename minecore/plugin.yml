@@ -1,0 +1,17 @@
+name: Minecore
+main: main.Minecore
+version: 0.1
+
+commands:
+  web:
+    description: Displays our web links.
+  vote:
+    description: Displays our voting links.
+  me:
+    description: Displays your player stats.
+  freeze:
+    description: Freeze a player so that they cannot move or execute commands.
+    usage: "Usage: /freeze <player>"
+  reboot:
+    description: Reboot the server with a specified time delay.
+    usage: "Usage: /reboot <time>"
