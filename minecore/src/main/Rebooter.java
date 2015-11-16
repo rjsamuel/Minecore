@@ -80,6 +80,10 @@ public class Rebooter extends BukkitRunnable{
 		{
 			this.cancel();
 		}
+		else
+		{
+			Bukkit.broadcastMessage("STILL RUNNING BITCH");
+		}
 	}
 	
 }

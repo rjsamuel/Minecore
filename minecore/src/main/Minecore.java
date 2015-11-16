@@ -62,7 +62,7 @@ public class Minecore extends JavaPlugin implements Listener{
 		freezer = new Freeze();
 		freezer.Load();
 		frozen = new ArrayList<String>();
-		rebooter = new Rebooter(this);
+		//rebooter = new Rebooter(this);
 		
 	}
 
@@ -235,6 +235,7 @@ public class Minecore extends JavaPlugin implements Listener{
 				{
 					Integer.parseInt(args[0]);
 					int tempdelay = Integer.parseInt(args[0]);
+					rebooter = new Rebooter(this);
 					rebooter.scheduleReboot(tempdelay);
 				} 
 				catch (NumberFormatException e)
